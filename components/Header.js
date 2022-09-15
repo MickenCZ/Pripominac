@@ -6,7 +6,7 @@ function Header() {
   <nav id="navbar">
     <Link href={"/"}>
       <div id="logo" >
-        <Image src="/favicon.ico" alt="logo" layout="fill" objectFit="cover" />
+        <Image src="/logo192.png" alt="logo" layout="fill" objectFit="cover" />
       </div>
     </Link>
     <Link href={"/"}><span className="navItem">Rozvrh</span></Link>
