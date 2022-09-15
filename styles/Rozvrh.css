@@ -1,0 +1,197 @@
+#table {
+  border-collapse: collapse;
+}
+
+#table .radekDnu td, #table #cislaHodin .cisloHodiny {
+  border:1px solid black;
+  width:70px;
+  height:4.8em;
+}
+
+#table #cislaHodin .cisloHodiny {
+    font-size: 1.15em;
+    border-bottom: 2px solid black;
+}
+
+
+.cell {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.15em;
+  padding:0;
+}
+
+.multiple div {
+  border-top: 0.5px solid black;
+  height: 2.35em;
+  padding-top:15%;
+  font-size: 1em;
+}
+
+.multiple div:first-child {
+  border-top: none;
+}
+
+.three div {
+  font-size: 0.75em;
+  height:2.1em;
+  padding-top:7.5%;
+}
+
+/* Dont change the height, it messes up the hover*/
+
+.four div {
+  font-size: 0.75em;
+  height:1.57em;
+  padding-top:0.2em;
+  padding-bottom:0.9em;
+}
+
+.four div:first-child {
+  padding-top: 0.2em;
+}
+
+.empty, .empty:hover {
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  height: 100%;
+  cursor: auto;
+}
+
+.subject:hover {
+  background-color: rgb(228, 240, 243);
+  cursor: pointer;
+}
+
+.day:hover {
+  background-color: white;
+  cursor: auto;
+}
+
+#table tbody .radekDnu .cell:first-child, #table tbody #cislaHodin .cisloHodiny {
+  border: 2.4px solid black;
+}
+
+/*Has to be this long of a selector for specificity reasons*/
+
+.dayName {
+  font-weight: bold;
+  margin:5px;
+}
+
+.dateDay {
+  font-size: 17px;
+}
+
+.singular {
+ padding-top:1.8em;
+ padding-bottom:1.8em;
+}
+
+.active {
+  background-color: lightgreen;
+}
+
+.active:hover {
+  background-color: green;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  #table .radekDnu td, #table #cislaHodin .cisloHodiny  {
+    height: 4em;
+  }
+  .multiple div {
+    font-size: 0.8em;
+    padding-top:15%;
+    height: 2.2em;
+  }
+  .two div {
+    padding-top: 25%;
+    height: 3em;
+  }
+  .four div {
+    font-size: 0.65em;
+    height: 1.8em;
+    padding-bottom: 0.2em;
+    padding-top:0.1em;
+  }
+  .three div {
+    font-size: 0.7em;
+  }
+  .dayName, .dateDay {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #table .radekDnu td, #table #cislaHodin .cisloHodiny  {
+    height: 3.5em;
+  }
+  .four div, .four div:first-child {
+    font-size: 0.60em;
+    height: 2em;
+    padding-top: 10%;
+  }
+  .dayName, .dateDay {
+    font-size: 15px;
+  }
+  .singular div {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  #table .radekDnu td, #table #cislaHodin .cisloHodiny  {
+    height: 3.2em;
+  }
+  .dayName, .dateDay {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .dayName, .dateDay {
+    font-size: 13px;
+  }
+  #table .radekDnu td, #table #cislaHodin .cisloHodiny  {
+    height: 2.8em;
+  }
+  .multiple div {
+    font-size: 0.7em;
+    padding-top:30%;
+  }
+  .four div {
+   padding: 0;
+   padding-top: 0.4em;
+   font-size: 0.6em;
+   height: 2em;
+   white-space: nowrap;
+  }
+  .three div {
+   padding-top: 10%;
+  }
+  .singular div {
+    font-size: 14px;
+  }
+ .two div {
+  height: 3.4em;
+  padding-top: 1em;
+}
+}
+
+
+@media only screen and (max-width: 410px) {
+  .four div, .four div:first-child {
+    font-size: .5em;
+    height: 2.35em;
+    padding-top: 0.5em;
+  }
+   #table .radekDnu td, #table #cislaHodin .cisloHodiny {
+    height: 3.8em;
+   }
+   .four div:last-child {
+    padding-top:0.3em;
+   }
+}

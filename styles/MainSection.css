@@ -1,0 +1,29 @@
+.middleWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.middleWrapper img {
+  margin:0px 50px;
+}
+
+@media only screen and (max-width: 880px) {
+  .middleWrapper img {
+    margin:0px 20px;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  .middleWrapper img {
+    margin:0px 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .middleWrapper img {
+    margin:0px 0px;
+  }
+}

@@ -1,0 +1,164 @@
+#modal {
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+}
+
+#modalBody {
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:50%;
+  height:80%;
+  background-color: white;
+  border-radius: 3%;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  margin-top:30px;
+  margin-left:40px;
+  margin-right:40px;
+}
+
+#typesLabel {
+  font-size: 20px;
+}
+
+#types {
+  font-size: 20px;
+  padding:7px;
+}
+
+#textareaLabel {
+  font-size: 20px;
+  margin-bottom:10px;
+  margin-top:20px;
+}
+
+#textarea {
+  font-size: 20px;
+  padding:9px;
+  width: 70%;
+  resize: none;
+}
+
+#submit {
+  font-size: 30px;
+  margin-left: 9%;
+  padding: 6px;
+  width:4em;
+  cursor: pointer;
+  text-align: center;
+  user-select: none;
+  border: 1px solid transparent;
+  border-radius: 0.35rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out,border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+#submit:hover {
+  color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+#remindersHeader {
+  font-size: 30px;
+  margin-top: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#header {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#subject {
+  font-size: 20px;
+}
+
+#valError {
+  color:red;
+  text-align: center;
+  margin-top:10px;
+}
+
+@media only screen and (max-width: 800px) {
+  #modalBody {
+    height: 95%;
+    width: 60%;
+  }
+  #typesLabel {
+    font-size: 15px;
+  }
+  #types {
+    font-size: 15px;
+  }
+  #textareaLabel {
+    font-size: 15px;
+  }
+  #textarea {
+    font-size: 15px;
+  }
+  #submit {
+    font-size: 22.5px;
+  }
+  #remindersHeader {
+    font-size: 22.5px;
+  }
+  #subject {
+    font-size: 15px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  #modalBody {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #textarea {
+    width: 80%;
+  }
+  #submit {
+    width: 3.4em;
+    font-size: 16px;
+    margin-left:6%;
+    padding:7px 3px;
+  }
+}
+
+@media only screen and (max-height: 400px) {
+  #modalBody {
+    width: 75%;
+  }
+  #remindersHeader {
+    font-size: 20px;
+    margin-top:10px;
+  }
+  #textareaLabel {
+    margin-top:10px;
+  }
+  #form {
+    margin-top:20px;
+  }
+}

@@ -1,0 +1,28 @@
+.reminder {
+  margin-left:50px;
+  margin-top:15px;
+  font-size: 25px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+  margin-right:50px;
+  word-wrap: break-word;
+}
+
+.reminder:last-child {
+  border-bottom: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .reminder {
+    font-size: 19px;
+    margin-top:10px;
+  } 
+}
+
+@media only screen and (max-height: 400px) {
+  .reminder {
+    font-size: 15px;
+    padding-bottom: 3px;
+    margin-top:7px;
+  }
+}

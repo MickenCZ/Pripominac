@@ -1,0 +1,17 @@
+#textSection {
+  margin-top:20px;
+}
+
+#textSection h3 {
+  font-size: 25px;
+  margin-top:0.5em;
+  margin-bottom:0.4em;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+#textSection p {
+  margin-left: 40px;
+  font-size: 20px;
+  margin-right: 30px;
+}
