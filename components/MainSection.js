@@ -7,7 +7,7 @@ import getCurrentWeek from "../functions/dates/getCurrentWeek"
 import getLessonDates from "../functions/dates/getLessonDates"
 
 function MainSection({staticReminders}) {
-  const [trida, setTrida] = useState("7V")
+  const [trida, setTrida] = useState("8V")
   const [remindersData, setRemindersData] = useState(staticReminders) //Dont worry about null, in Rozvrh.js, useEffect is used to fetch data to it
   const [weekIndex, setWeekIndex] = useState(0)//0 - current, -1 yesterweek, 1 next week etc.
   const [displayedDates, setDisplayedDates] = useState({

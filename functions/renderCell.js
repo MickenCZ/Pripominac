@@ -17,6 +17,7 @@
     if (subjects.length === 2) {return <div className="multiple two">{result}</div>}
     if (subjects.length === 3) {return <div className="multiple three">{result}</div>}
     if (subjects.length === 4) {return <div className="multiple four">{result}</div>}
+    if (subjects.length === 5) {return <div className="multiple five">{result}</div>}
   }
 }
 

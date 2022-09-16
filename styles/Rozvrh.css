@@ -39,6 +39,12 @@
 }
 
 /* Dont change the height, it messes up the hover*/
+.five div {
+  font-size: 0.7em;
+  height:1.4em;
+  padding-top:0.2em;
+  padding-bottom:0.9em;
+}
 
 .four div {
   font-size: 0.75em;
