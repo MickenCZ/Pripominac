@@ -1,10 +1,10 @@
 const rozvrh = {
     "1V":{
-        "monday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]],
-        "tuesday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]],
-        "wednesday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]],
-        "thursday":[["M"],["M"],["M"],["M"],["CH"],["M"],["M"],["M"],["M"]],
-        "friday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]]
+        "monday":[["Č"],["M"],["A Sk", "A Sl"],["F"],["D"],null, null, null, null],
+        "tuesday":[["B"],["M", "Č"],["Č","M"],["A Sk", "A Sl"],["OV"],["Z"],null, null, null],
+        "wednesday":[["A Sk", "Inf"],["Č"],["HV"],["A Sl", "Inf"],["M"],["DV", "Ppr", "RI"],null, null, null],
+        "thursday":[["TV Tr", "Tv Ds"],["TV Tr", "Tv Ds"],["A Sk", "A Sl"],["Z"],["B"],["F"],null, null, null],
+        "friday":[["D"],["VV"],["VV"],["M", "Č"],["Č","M"],["TV Sk", "TV Tr"],null, null, null]
     },
     "2V":{
         "monday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]],
