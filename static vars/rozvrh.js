@@ -21,11 +21,11 @@ const rozvrh = {
         "friday":[["TV Tr", "TV Md"],["TV Tr", "TV Md"],["DV", "Ppr"],["A Mi", "A Sk"],["F"],["Fj", "N Ja", "R"],null, null, null]
     },
     "4V":{
-        "monday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]],
-        "tuesday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]],
-        "wednesday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]],
-        "thursday":[["M"],["M"],["M"],["M"],["CH"],["M"],["M"],["M"],["M"]],
-        "friday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]]
+        "monday":[["A Sm", "A Mt"],["M"],["Č"],["CH"],["OV"],["Z"],["F"],null, null],
+        "tuesday":[["M"],["A Sm", "A Mt"],["Fj", "N"],["B"],["TV Lg", "TV Sa"],["TV Lg", "TV Sa"],null, null, null],
+        "wednesday":[["F"],["M"],["Č"],["Fj", "N"],["D"],["D"],["CH"],null, null],
+        "thursday":[["Č", "M"],["M", "Č"],["Z"],["A Mt", "Inf"],["Inf", "A Sm"],["HV"],["VV"],null, null],
+        "friday":[["Fj", "N"],["DV", "Ppr"],["Č"],["B"],["A Sm", "A Mt"],null, null, null, null]
     },
     "5V":{
         "monday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]],
