@@ -35,11 +35,11 @@ const rozvrh = {
         "friday":[["M"],["A Sl", "A Mt", "A Mi", "A Sk"],["R", "N Ja", "N Md", "Fj"],["CR", "L", "PO", "RO"],["Č"],["F"],null, null, null]
     },
     "6V":{
-        "monday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]],
-        "tuesday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]],
-        "wednesday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]],
-        "thursday":[["M"],["M"],["M"],["M"],["CH"],["M"],["M"],["M"],["M"]],
-        "friday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]]
+        "monday":[["M"],["ZSV"],["Fj", "N", "R"],["A Kn", "A Sk", "A Mt", "A Sm"],["B"],["LF", "LCH"],null,["TV Sa", "TV Vo"],["TV Sa", "TV Vo"]],
+        "tuesday":[["Inf", "M"],["Č", "Inf"],["A Kn", "A Sk", "A Mt", "A Sm"],["Č", "M"],["CH"],["Z"],["F"],null, null],
+        "wednesday":[["Č"],["D"],["Fj", "N", "R"],["HV", "VV"],["HV", "VV"],["A Kn", "A Sk", "A Mt", "A Sm"],null, null, null],
+        "thursday":[["M"],["B"],["CH"],["Č"],["Fj", "N", "R"],["A Kn", "A Sk", "A Mt", "A Sm"],["Z"],null, null],
+        "friday":[["D"],["M"],["Č"],["ZSV"],["CR", "L", "PO", "RO", "MS"],["F"],null, null, null]
     },
     "7V":{
         "monday":[["SM", "SA"],["SM", "SA"],["M", "Č"],["Č","M"],["ZSV"],["Fj", "R", "N Ja", "N Md"],null,["SCH", "SVS", "SZ"],["SCH", "SVS", "SZ"]],
@@ -63,11 +63,11 @@ const rozvrh = {
         "friday":[["B"],["A Sl", "A Mt", "A Mi", "A Sk"],["R", "N Ja", "N Md", "Fj"],["CR", "L", "PO", "RO"],["Z"],["D"],null, null, null]
     },
     "2A":{
-        "monday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]],
-        "tuesday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]],
-        "wednesday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]],
-        "thursday":[["M"],["M"],["M"],["M"],["CH"],["M"],["M"],["M"],["M"]],
-        "friday":[["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"],["M"]]
+        "monday":[["M"],["F"],["N Ja", "N Md", "R"],["A Kn", "A Sk", "A Mt", "A Sm"],["Č"],["LF", "LB"],null,["TV Mi", "TV Vo"],["TV Mi", "TV Vo"]],
+        "tuesday":[["Č"],["M"],["A Kn", "A Sk", "A Mt", "A Sm"],["CH"],["Z"],["ZSV"],["D"],null, null],
+        "wednesday":[["B"],["Č"],["N Ja", "N Md", "R"],["VV", "HV"],["VV", "HV"],["A Kn", "A Sk", "A Mt", "A Sm"],null, null, null],
+        "thursday":[["D"],["Z"],["M"],["F"],["N Ja", "N Md", "R"],["A Kn", "A Sk", "A Mt", "A Sm"],["ZSV"],null, null],
+        "friday":[["Č", "M"],["Č", "Inf"],["Inf","M"],["B"],["CR", "L", "PO", "RO", "MS"],["CH"],null, null, null]
     },
     "3A":{
         "monday":[["SM", "SA"],["SM", "SA"],["F"],["M"],["D"],["Fj", "R", "N Md", "N Ja"],null,["SCH", "SVS", "SZ"],["SCH", "SVS", "SZ"]],
