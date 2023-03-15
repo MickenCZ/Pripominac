@@ -20,6 +20,6 @@
   "devDependencies": {
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5",
-    "webpack": "^5.74.0"
+    "webpack": "^5.76.0"
   }
 }
